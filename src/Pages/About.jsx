@@ -24,14 +24,14 @@ const About = () => {
       <section className="py-20">
         <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-3xl font-bold mb-6">Our Mission</h2>
-            <p className="text-gray-600 mb-6 text-lg">
+            <h2 className="text-2xl font-bold mb-6">Our Mission</h2>
+            <p className="text-gray-600 mb-6 ">
               At Cowlytics, we're dedicated to revolutionizing livestock
               management through innovative technology that enhances animal
               welfare, increases farm productivity, and promotes sustainable
               agriculture practices.
             </p>
-            <p className="text-gray-600 text-lg">
+            <p className="text-gray-600 ">
               We believe that by providing farmers with real-time insights and
               predictive analytics, we can help create a more efficient, humane,
               and profitable agricultural ecosystem.
@@ -44,7 +44,7 @@ const About = () => {
               <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                 <Users className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="font-semibold text-lg">10,000+</h3>
+              <h3 className="font-semibold text-lg">2,000+</h3>
               <p className="text-gray-600">Active Users</p>
             </div>
 
@@ -52,7 +52,7 @@ const About = () => {
               <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
                 <Globe className="h-6 w-6 text-blue-600" />
               </div>
-              <h3 className="font-semibold text-lg">50+</h3>
+              <h3 className="font-semibold text-lg">5+</h3>
               <p className="text-gray-600">Countries</p>
             </div>
           </div>
@@ -60,10 +60,10 @@ const About = () => {
       </section>
 
       {/* Values Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20 ">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Our Values</h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-16">
+          <h2 className="text-2xl font-bold mb-6">Our Values</h2>
+          <p className="text-gray-600 max-w-3xl mx-auto mb-16">
             These core principles guide everything we do at Cowlytics
           </p>
 
@@ -73,7 +73,7 @@ const About = () => {
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
                 <Target className="h-8 w-8 text-blue-600" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Innovation</h3>
+              <h3 className="font-semibold mb-3">Innovation</h3>
               <p className="text-gray-600">
                 We constantly push the boundaries of technology to create
                 solutions that transform traditional farming practices.
@@ -110,22 +110,22 @@ const About = () => {
       {/* Our Story */}
       <section className="py-20">
         <div className="container mx-auto px-4 text-center">
-          <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+          <h2 className="text-2xl font-bold mb-6">Our Story</h2>
           <div className="max-w-4xl mx-auto text-left">
-            <p className="text-lg text-gray-600 mb-6">
-              Founded in 2020 by a team of agricultural engineers and technology
+            <p className="text-gray-600 mb-6">
+              Founded in 2025 by a team of agricultural engineers and technology
               experts, Cowlytics emerged from a simple observation: traditional
               livestock management methods were not keeping pace with modern
               farming needs.
             </p>
-            <p className="text-lg text-gray-600 mb-6">
+            <p className=" text-gray-600 mb-6">
               Our founders, having grown up on farms themselves, understood the
               daily challenges faced by livestock farmers. They envisioned a
               world where technology could provide farmers with the insights
               needed to make better decisions about their animals' health,
               breeding, and overall management.
             </p>
-            <p className="text-lg text-gray-600">
+            <p className="text-gray-600">
               Today, Cowlytics serves thousands of farmers across the globe,
               helping them improve their operations while ensuring the highest
               standards of animal welfare. Our journey continues as we develop
