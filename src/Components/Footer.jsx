@@ -62,9 +62,11 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className=" hover:text-white transition-colors">
-                  Features
-                </a>
+                <Link to="/feature">
+                  <span className="hover:text-white transition-colors">
+                    Features
+                  </span>
+                </Link>
               </li>
             </ul>
           </div>
@@ -74,24 +76,24 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Products</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Smart Ear Tags
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Health Monitoring
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Mobile App
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Analytics Dashboard
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -101,24 +103,24 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
               <li>
-                <a href="#" className=" hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Help Center
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className=" hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Documentation
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   API Reference
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="" className="hover:text-white transition-colors">
                   Community
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -127,7 +129,7 @@ const Footer = () => {
         <div className="border-t border-white mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2024 Cowlytics. All rights reserved.
+              © 2025 Cowlytics. All rights reserved.
             </p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <a

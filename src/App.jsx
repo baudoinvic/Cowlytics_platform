@@ -7,6 +7,7 @@ import Layout from "./Layout/Layout";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import Features from "./Pages/Features";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="feature" element={<Features />} />
         </Route>
       </Routes>
     </BrowserRouter>
