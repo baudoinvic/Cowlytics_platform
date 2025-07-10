@@ -4,6 +4,7 @@ import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import logo from "../assets/logo.PNG";
 
 const Footer = () => {
   return (
@@ -13,8 +14,7 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <Users className="h-8 w-8 text-blue-400" />
-              <span className="text-xl font-bold">Cowlytics</span>
+              <span className="text-xl font-bold">Cowlytics</span> 
             </Link>
             <p className="mb-4">
               Revolutionizing livestock management with smart technology and
