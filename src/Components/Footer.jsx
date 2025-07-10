@@ -1,5 +1,9 @@
 import { Link } from "react-router-dom";
-import { Users, Facebook, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Users } from "lucide-react";
+import { FaFacebook } from "react-icons/fa6";
+import { FaInstagram } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
@@ -21,25 +25,25 @@ const Footer = () => {
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
-                <Facebook className="h-5 w-5" />
+                <FaFacebook className="h-5 w-5" />
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
-                <Twitter className="h-5 w-5" />
+                <FaXTwitter className="h-5 w-5" />
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
-                <Linkedin className="h-5 w-5" />
+                <FaLinkedin className="h-5 w-5" />
               </a>
               <a
                 href="#"
                 className="text-gray-400 hover:text-blue-400 transition-colors"
               >
-                <Instagram className="h-5 w-5" />
+                <FaInstagram className="h-5 w-5" />
               </a>
             </div>
           </div>
