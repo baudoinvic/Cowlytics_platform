@@ -1,34 +1,34 @@
-
 import { Activity, Zap, Shield, BarChart3, Users, Phone } from "lucide-react";
+import cow from "../assets/cow.PNG";
+
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
-      <section className="relative bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
-        <div className="container mx-auto px-4">
+      <section className="bg-[#1C4F7B] text-white py-24">
+        <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-center justify-between">
-            <div className="lg:w-1/2 mb-10 lg:mb-0">
-              <h1 className="text-4xl lg:text-6xl font-bold mb-6">
-                Smart
-                <br />
-                Livestock
-                <br />
-                Monitoring
+            {/* Left Content */}
+            <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
+              <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+                Smart <br className="hidden lg:block" />
+                Livestock Monitoring
               </h1>
-              <p className="text-xl mb-8 text-blue-100">
-                Real-time health insights
-                <br />
+              <p className="text-lg lg:text-xl text-blue-100 mb-8">
+                Real-time health insights <br className="hidden lg:block" />
                 with precision ear tags
               </p>
-              <button className="bg-white text-blue-600 font-semibold border border-blue-600 px-6 py-2 rounded-lg shadow-sm hover:bg-blue-50 hover:shadow-md transition-all duration-300">
+              <button className="bg-white text-blue-600 font-semibold border border-blue-600 px-6 py-3 rounded-lg shadow-sm hover:bg-blue-50 hover:shadow-md transition-all duration-300">
                 Learn More
               </button>
             </div>
-            <div className="lg:w-1/2">
+
+            {/* Right Image */}
+            <div className="lg:w-1/2 flex justify-center">
               <img
-                src="/lovable-uploads/08f6e8f0-ae02-45fc-aa7e-58385b7f2fa1.png"
+                src={cow}
                 alt="Smart Livestock Monitoring"
-                className="w-full max-w-md mx-auto"
+                className="w-full max-w-sm"
               />
             </div>
           </div>
@@ -36,9 +36,9 @@ const Home = () => {
       </section>
 
       {/* Features Section */}
-      <section className="py-20 bg-gray-50">
+      <section className="py-20">
         <div className="container mx-auto px-4">
-          <h2 className="text-3xl font-bold text-center mb-16">FEATURES</h2>
+          <h2 className="text-2xl font-bold text-center mb-16">FEATURES</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
@@ -128,8 +128,8 @@ const Home = () => {
         <div className="container mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">ABOUT US</h2>
-              <h3 className="text-2xl font-semibold mb-4 text-blue-600">
+              <h2 className="text-2xl font-bold mb-6">ABOUT US</h2>
+              <h3 className="text-lg font-semibold mb-4 text-blue-600">
                 Revolutionizing Livestock Management
               </h3>
               <p className="text-gray-600 mb-6">
@@ -143,7 +143,7 @@ const Home = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-2xl font-semibold mb-4 text-blue-600">
+              <h3 className="text-lg font-semibold mb-4 text-blue-600">
                 Revolutionizing Livestock Management
               </h3>
               <p className="text-gray-600">
@@ -160,7 +160,7 @@ const Home = () => {
       <section className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
-            <h2 className="text-3xl font-bold mb-6">Advanced Technology</h2>
+            <h2 className="text-2xl font-bold mb-6">Advanced Technology</h2>
             <p className="text-gray-600 max-w-3xl mx-auto">
               Our cutting-edge IoT sensors and AI-powered analytics provide
               real-time insights into your livestock's health, behavior, and

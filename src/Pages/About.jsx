@@ -7,12 +7,12 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <section className="bg-gradient-to-br from-blue-600 to-blue-800 text-white py-20">
+      <section className="bg-[#1C4F7B] text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-4xl lg:text-6xl font-bold mb-6">
+          <h1 className="text-2xl  font-bold mb-6">
             About Cowlytics
           </h1>
-          <p className="text-xl text-blue-100 max-w-3xl mx-auto">
+          <p className="max-w-3xl mx-auto">
             Leading the revolution in smart livestock management with
             cutting-edge IoT technology and AI-powered analytics for modern
             farmers worldwide.
