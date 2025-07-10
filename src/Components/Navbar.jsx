@@ -1,7 +1,7 @@
 
 import { Users } from "lucide-react";
 import logo from "../assets/logo.PNG";
-
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -15,31 +15,33 @@ const Navbar = () => {
 
           {/* Right side: Links + Button */}
           <div className="hidden md:flex items-center space-x-8">
-            <a
-              href="/"
+            <Link
+              to="/"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Home
-            </a>
-            <a
-              href="/feature"
+            </Link>
+
+            <Link
+              to="/feature"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Features
-            </a>
+            </Link>
 
-            <a
-              href="/about"
+            <Link
+              to="/about"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               About Us
-            </a>
-            <a
-              href="/contact"
+            </Link>
+
+            <Link
+              to="/contact"
               className="text-gray-700 hover:text-blue-600 transition-colors"
             >
               Contact Us
-            </a>
+            </Link>
             <a
               href="https://cal.com/baudoin-bolingo-cpe66z"
               target="_blank"

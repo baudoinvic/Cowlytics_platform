@@ -105,7 +105,7 @@ const Contact = () => {
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl font-bold mb-6">Get in Touch</h2>
-              <p className="text-gray-600 text-lg mb-8">
+              <p className="text-gray-600  mb-8">
                 We're here to help you succeed. Whether you have questions about
                 our products, need technical support, or want to discuss a
                 custom solution, our team is ready to assist.

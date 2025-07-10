@@ -1,5 +1,6 @@
 import { Activity, Zap, Shield, BarChart3, Users, Phone } from "lucide-react";
 import cow from "../assets/cow.PNG";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -18,9 +19,11 @@ const Home = () => {
                 Real-time health insights <br className="hidden lg:block" />
                 with precision ear tags
               </p>
-              <button className="bg-white text-blue-600 font-semibold border border-blue-600 px-6 py-3 rounded-lg shadow-sm hover:bg-blue-50 hover:shadow-md transition-all duration-300">
-                Learn More
-              </button>
+              <Link to="/about">
+                <button className="bg-white text-blue-600 font-semibold border border-blue-600 px-6 py-3 rounded-lg shadow-sm hover:bg-blue-50 hover:shadow-md transition-all duration-300">
+                  Learn More
+                </button>
+              </Link>
             </div>
 
             {/* Right Image */}
