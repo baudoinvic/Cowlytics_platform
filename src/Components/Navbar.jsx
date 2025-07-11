@@ -12,8 +12,6 @@ const Navbar = () => {
           <a href="/" className="flex items-center space-x-2">
             <img src={logo} alt="Cowlytics Logo" className="h-16 w-16" />
           </a>
-
-          {/* Right side: Links + Button */}
           <div className="hidden md:flex items-center space-x-8">
             <Link
               to="/"
