@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
-      <section className="bg-[#1C4F7B] text-white py-24">
-        <div className="container mx-auto px-6">
-          <div className="flex flex-col lg:flex-row items-center justify-between">
+      <section className="bg-[#1C4F7B] text-white py-16 sm:py-20 md:py-24">
+        <div className="container mx-auto px-4 sm:px-6">
+          <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-0">
             {/* Left Content */}
-            <div className="lg:w-1/2 text-center lg:text-left mb-12 lg:mb-0">
-              <h1 className="text-4xl lg:text-6xl font-bold leading-tight mb-6">
+            <div className="w-full lg:w-1/2 text-center lg:text-left">
+              <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight mb-6">
                 Smart <br className="hidden lg:block" />
                 Livestock Monitoring
               </h1>
-              <p className="text-lg lg:text-xl text-blue-100 mb-8">
+              <p className="text-base sm:text-lg lg:text-xl text-blue-100 mb-8">
                 Real-time health insights <br className="hidden lg:block" />
                 with precision ear tags
               </p>
@@ -27,11 +27,11 @@ const Home = () => {
             </div>
 
             {/* Right Image */}
-            <div className="lg:w-1/2 flex justify-center">
+            <div className="w-full lg:w-1/2 flex justify-center">
               <img
                 src={cow}
                 alt="Smart Livestock Monitoring"
-                className="w-full max-w-sm"
+                className="w-4/5 sm:w-3/4 md:w-2/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm"
               />
             </div>
           </div>
