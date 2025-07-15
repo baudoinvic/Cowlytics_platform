@@ -9,9 +9,7 @@ const About = () => {
       {/* Header */}
       <section className="bg-[#1C4F7B] text-white py-20">
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-2xl  font-bold mb-6">
-            About Cowlytics
-          </h1>
+          <h1 className="text-2xl  font-bold mb-6">About Cowlytics</h1>
           <p className="max-w-3xl mx-auto">
             Leading the revolution in smart livestock management with
             cutting-edge IoT technology and AI-powered analytics for modern
@@ -42,7 +40,7 @@ const About = () => {
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-white shadow-md rounded-lg p-6 text-center">
               <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                <Users className="h-6 w-6 text-blue-600" />
+                <Users className="h-6 w-6 text-[#1C4F7B]" />
               </div>
               <h3 className="font-semibold text-lg">2,000+</h3>
               <p className="text-gray-600">Active Users</p>
@@ -50,7 +48,7 @@ const About = () => {
 
             <div className="bg-white shadow-md rounded-lg p-6 text-center">
               <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-3">
-                <Globe className="h-6 w-6 text-blue-600" />
+                <Globe className="h-6 w-6 text-[#1C4F7B]" />
               </div>
               <h3 className="font-semibold text-lg">5+</h3>
               <p className="text-gray-600">Countries</p>
@@ -71,7 +69,7 @@ const About = () => {
             {/* Card 1 */}
             <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition-shadow">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Target className="h-8 w-8 text-blue-600" />
+                <Target className="h-8 w-8 text-[#1C4F7B]" />
               </div>
               <h3 className="font-semibold mb-3">Innovation</h3>
               <p className="text-gray-600">
@@ -83,7 +81,7 @@ const About = () => {
             {/* Card 2 */}
             <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition-shadow">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Award className="h-8 w-8 text-blue-600" />
+                <Award className="h-8 w-8 text-[#1C4F7B]" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Excellence</h3>
               <p className="text-gray-600">
@@ -95,7 +93,7 @@ const About = () => {
             {/* Card 3 */}
             <div className="bg-white shadow-md rounded-lg p-8 text-center hover:shadow-lg transition-shadow">
               <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Users className="h-8 w-8 text-blue-600" />
+                <Users className="h-8 w-8 text-[#1C4F7B]" />
               </div>
               <h3 className="text-xl font-semibold mb-3">Sustainability</h3>
               <p className="text-gray-600">

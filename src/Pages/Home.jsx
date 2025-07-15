@@ -46,7 +46,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <Activity className="h-8 w-8 text-blue-600 mr-3" />
+                  <Activity className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">Health Monitoring</h3>
                 </div>
                 <p className="text-gray-600">
@@ -59,7 +59,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <BarChart3 className="h-8 w-8 text-blue-600 mr-3" />
+                  <BarChart3 className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">AI Analytics</h3>
                 </div>
                 <p className="text-gray-600">
@@ -72,7 +72,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <Shield className="h-8 w-8 text-blue-600 mr-3" />
+                  <Shield className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">Geo-Fencing</h3>
                 </div>
                 <p className="text-gray-600">
@@ -85,7 +85,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <Users className="h-8 w-8 text-blue-600 mr-3" />
+                  <Users className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">
                     Breeding Optimization
                   </h3>
@@ -100,7 +100,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <Zap className="h-8 w-8 text-blue-600 mr-3" />
+                  <Zap className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">Long Battery Life</h3>
                 </div>
                 <p className="text-gray-600">
@@ -113,7 +113,7 @@ const Home = () => {
             <div className="p-6 hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="flex items-center mb-4">
-                  <Phone className="h-8 w-8 text-blue-600 mr-3" />
+                  <Phone className="h-8 w-8 text-[#1C4F7B] mr-3" />
                   <h3 className="text-xl font-semibold">Ultra Battery Life</h3>
                 </div>
                 <p className="text-gray-600">
@@ -132,7 +132,7 @@ const Home = () => {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-2xl font-bold mb-6">ABOUT US</h2>
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">
+              <h3 className="text-lg font-semibold mb-4 text-[#1C4F7B]">
                 Revolutionizing Livestock Management
               </h3>
               <p className="text-gray-600 mb-6">
@@ -146,7 +146,7 @@ const Home = () => {
               </p>
             </div>
             <div>
-              <h3 className="text-lg font-semibold mb-4 text-blue-600">
+              <h3 className="text-lg font-semibold mb-4 text-[#1C4F7B]">
                 Revolutionizing Livestock Management
               </h3>
               <p className="text-gray-600">
@@ -174,7 +174,7 @@ const Home = () => {
             <div className="p-8 text-center hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Activity className="h-8 w-8 text-blue-600" />
+                  <Activity className="h-8 w-8 text-[#1C4F7B]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">
                   Real-Time Monitoring
@@ -189,7 +189,7 @@ const Home = () => {
             <div className="p-8 text-center hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <BarChart3 className="h-8 w-8 text-blue-600" />
+                  <BarChart3 className="h-8 w-8 text-[#1C4F7B]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">
                   Predictive Analytics
@@ -204,7 +204,7 @@ const Home = () => {
             <div className="p-8 text-center hover:shadow-lg transition-shadow bg-white shadow-md rounded-lg">
               <div className="p-0">
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <Phone className="h-8 w-8 text-blue-600" />
+                  <Phone className="h-8 w-8 text-[#1C4F7B]" />
                 </div>
                 <h3 className="text-xl font-semibold mb-3">
                   Mobile Integration
