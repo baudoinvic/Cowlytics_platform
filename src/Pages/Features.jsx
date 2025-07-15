@@ -155,7 +155,7 @@ const Features = () => {
               >
                 <div className="flex items-center mb-4">
                   <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mr-4">
-                    <feature.icon className="h-6 w-6 text-blue-600" />
+                    <feature.icon className="h-6 w-6 text-[#1C4F7B]" />
                   </div>
                   <h3 className="text-xl font-semibold">{feature.title}</h3>
                 </div>
@@ -194,7 +194,7 @@ const Features = () => {
                 className="bg-white rounded-lg p-6 shadow hover:shadow-lg transition-shadow text-center"
               >
                 <div className="bg-blue-100 rounded-full w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                  <feature.icon className="h-8 w-8 text-blue-600" />
+                  <feature.icon className="h-8 w-8 text-[#1C4F7B]" />
                 </div>
                 <h3 className="text-lg font-semibold mb-2">{feature.title}</h3>
                 <p className="text-gray-600 text-sm">{feature.description}</p>
