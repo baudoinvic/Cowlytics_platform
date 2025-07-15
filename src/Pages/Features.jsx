@@ -227,7 +227,7 @@ const Features = () => {
                 key={index}
                 className="bg-white rounded-lg p-6 text-center shadow"
               >
-                <h3 className="text-2xl font-bold text-blue-600 mb-2">
+                <h3 className="text-2xl font-bold text-[#1C4F7B] mb-2">
                   {item.title}
                 </h3>
                 <p className="text-gray-600">{item.subtitle}</p>
