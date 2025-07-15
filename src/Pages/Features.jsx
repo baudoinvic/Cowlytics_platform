@@ -12,7 +12,6 @@ import {
   Heart,
   Thermometer,
 } from "lucide-react";
-import { Link } from "react-router-dom";
 
 const Features = () => {
   const mainFeatures = [
