@@ -1,5 +1,4 @@
-import { Link } from "react-router-dom";
-import { Users } from "lucide-react";
+  import { Link } from "react-router-dom";
 import { FaFacebook } from "react-icons/fa6";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
@@ -8,13 +7,13 @@ import { FaXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1C4F7B] text-white py-16">
+    <footer className="bg-[#002240] text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
             <Link to="/" className="flex items-center space-x-2 mb-4">
-              <span className="text-xl font-bold">Cowlytics</span> 
+              <span className="text-xl font-bold">Cowlytics</span>
             </Link>
             <p className="mb-4">
               Revolutionizing livestock management with smart technology and

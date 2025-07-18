@@ -1,12 +1,12 @@
 import { Activity, Zap, Shield, BarChart3, Users, Phone } from "lucide-react";
-import cow from "../assets/cow.PNG";
+import breed from "../assets/breed.PNG";
 import { Link } from "react-router-dom";
 
 
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
-      <section className="bg-[#1C4F7B] text-white py-16 sm:py-20 md:py-24">
+      <section className="bg-[#002240] text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-0">
             {/* Left Content */}
@@ -27,11 +27,11 @@ const Home = () => {
             </div>
 
             {/* Right Image */}
-            <div className="w-full lg:w-1/2 flex justify-center">
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <img
-                src={cow}
+                src={breed}
                 alt="Smart Livestock Monitoring"
-                className="w-4/5 sm:w-3/4 md:w-2/3 max-w-xs sm:max-w-sm md:max-w-md lg:max-w-sm"
+                className="w-full max-w-md h-auto object-contain"
               />
             </div>
           </div>

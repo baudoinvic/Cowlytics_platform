@@ -74,7 +74,7 @@ const NavLinks = ({ onClick }) => (
       href="https://cal.com/baudoin-bolingo-cpe66z"
       target="_blank"
       rel="noopener noreferrer"
-      className="bg-[#1C4F7B] hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg shadow-md"
+      className="bg-[#002240] hover:bg-blue-700 text-white font-semibold px-6 py-2 rounded-lg shadow-md"
     >
       Get a Demo
     </a>
