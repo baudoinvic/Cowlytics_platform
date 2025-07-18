@@ -5,7 +5,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 const Contact = () => {
   return (
     <div className="min-h-screen bg-background">
-      <section className="bg-[#1C4F7B] text-white py-20">
+      <section className="bg-[#002240] text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-2xl  font-bold mb-6">Contact Us</h1>
           <p className="max-w-3xl mx-auto">
@@ -94,7 +94,7 @@ const Contact = () => {
               </div>
               <button
                 type="submit"
-                className="w-full bg-[#1C4F7B] text-white py-2 rounded hover:bg-blue-700 transition-colors"
+                className="w-full bg-[#002240] text-white py-2 rounded hover:bg-blue-700 transition-colors"
               >
                 Send Message
               </button>
