@@ -7,7 +7,7 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
-      <section className="bg-[#1C4F7B] text-white py-20">
+      <section className="bg-[#002240] text-white py-20">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-2xl  font-bold mb-6">About Cowlytics</h1>
           <p className="max-w-3xl mx-auto">
