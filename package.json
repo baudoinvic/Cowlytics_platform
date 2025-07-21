@@ -1,5 +1,6 @@
 {
   "name": "cowlytics",
+  "homepage": "https://cowlytic.com/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
