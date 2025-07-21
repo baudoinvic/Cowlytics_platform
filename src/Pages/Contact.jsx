@@ -131,9 +131,9 @@ const Contact = () => {
                 title: "Phone Support",
                 content: (
                   <>
-                    Main: +1 (555) 123-4567
+                    Main: +1 (617) 785-4720
                     <br />
-                    Support: +1 (555) 987-6543
+                    Support: +1 (617) 785-4720
                     <br />
                     Available 24/7
                   </>
