@@ -1,8 +1,43 @@
 
 import React from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
+import { useState } from "react";
 
 const Contact = () => {
+
+   const [formData, setFormData] = useState({
+     firstName: "",
+     lastName: "",
+     email: "",
+     phone: "",
+     company: "",
+     message: "",
+   });
+
+   const handleChange = (e) => {
+     setFormData((prev) => ({
+       ...prev,
+       [e.target.name]: e.target.value,
+     }));
+   };
+
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    alert("Your message has been sent successfully!");
+
+    // Reset form
+    setFormData({
+      firstName: "",
+      lastName: "",
+      email: "",
+      phone: "",
+      company: "",
+      message: "",
+    });
+  };
+
+
   return (
     <div className="min-h-screen bg-background">
       <section className="bg-[#002240] text-white py-20">
@@ -29,7 +64,7 @@ const Contact = () => {
               </p>
             </div>
 
-            <form className="space-y-6">
+            <form className="space-y-6" onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -38,7 +73,11 @@ const Contact = () => {
                   <input
                     type="text"
                     placeholder="John"
+                    value={formData.firstName}
+                    name="firstName"
+                    onChange={handleChange}
                     className="w-full border border-gray-300 rounded px-4 py-2"
+                    required
                   />
                 </div>
                 <div>
@@ -47,8 +86,12 @@ const Contact = () => {
                   </label>
                   <input
                     type="text"
+                    value={formData.lastName}
+                    name="lastName"
+                    onChange={handleChange}
                     placeholder="Doe"
                     className="w-full border border-gray-300 rounded px-4 py-2"
+                    required
                   />
                 </div>
               </div>
@@ -58,8 +101,12 @@ const Contact = () => {
                 </label>
                 <input
                   type="email"
+                  value={formData.email}
+                  name="email"
+                  onChange={handleChange}
                   placeholder="john@example.com"
                   className="w-full border border-gray-300 rounded px-4 py-2"
+                  required
                 />
               </div>
               <div>
@@ -68,8 +115,12 @@ const Contact = () => {
                 </label>
                 <input
                   type="tel"
+                  value={formData.phone}
+                  name="phone"
+                  onChange={handleChange}
                   placeholder="+1 (555) 123-4567"
                   className="w-full border border-gray-300 rounded px-4 py-2"
+                  required
                 />
               </div>
               <div>
@@ -78,8 +129,12 @@ const Contact = () => {
                 </label>
                 <input
                   type="text"
+                  value={formData.company}
+                  name="company"
+                  onChange={handleChange}
                   placeholder="Your Farm Name"
                   className="w-full border border-gray-300 rounded px-4 py-2"
+                  required
                 />
               </div>
               <div>
@@ -88,8 +143,12 @@ const Contact = () => {
                 </label>
                 <textarea
                   rows={4}
+                  value={formData.message}
+                  name="message"
+                  onChange={handleChange}
                   placeholder="Tell us about your livestock management needs..."
                   className="w-full border border-gray-300 rounded px-4 py-2"
+                  required
                 ></textarea>
               </div>
               <button
