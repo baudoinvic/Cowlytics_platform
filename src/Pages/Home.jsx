@@ -12,7 +12,7 @@ const Home = () => {
             {/* Left Content */}
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight mb-6">
-                Smart <br className="hidden lg:block" />
+                Smart 
                 Livestock Monitoring
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-blue-100 mb-8">
@@ -27,6 +27,14 @@ const Home = () => {
             </div>
 
             {/* Right Image */}
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+              <img
+                src={breed}
+                alt="Smart Livestock Monitoring"
+                className="w-full max-w-md h-auto object-contain"
+              />
+            </div>
+
             <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
               <img
                 src={breed}
