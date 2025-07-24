@@ -6,13 +6,13 @@ import { Link } from "react-router-dom";
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
-      {/* <section className="bg-[#002240] text-white py-16 sm:py-20 md:py-24">
+      <section className="bg-[#002240] text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-0">
             {/* Left Content */}
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight mb-6">
-                Smart 
+                Smart <br className="hidden lg:block" />
                 Livestock Monitoring
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-blue-100 mb-8">
@@ -44,7 +44,7 @@ const Home = () => {
             </div>
           </div>
         </div>
-      </section> */}
+      </section>
 
       {/* Features Section */}
       <section className="py-20">
