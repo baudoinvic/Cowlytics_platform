@@ -1,26 +1,23 @@
-
 import React from "react";
 import { MapPin, Phone, Mail, Clock } from "lucide-react";
 import { useState } from "react";
 
 const Contact = () => {
+  const [formData, setFormData] = useState({
+    firstName: "",
+    lastName: "",
+    email: "",
+    phone: "",
+    company: "",
+    message: "",
+  });
 
-   const [formData, setFormData] = useState({
-     firstName: "",
-     lastName: "",
-     email: "",
-     phone: "",
-     company: "",
-     message: "",
-   });
-
-   const handleChange = (e) => {
-     setFormData((prev) => ({
-       ...prev,
-       [e.target.name]: e.target.value,
-     }));
-   };
-
+  const handleChange = (e) => {
+    setFormData((prev) => ({
+      ...prev,
+      [e.target.name]: e.target.value,
+    }));
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -36,7 +33,6 @@ const Contact = () => {
       message: "",
     });
   };
-
 
   return (
     <div className="min-h-screen bg-background">
@@ -245,4 +241,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
