@@ -50,7 +50,6 @@ const Contact = () => {
       {/* Contact Section */}
       <section className="py-20">
         <div className="container mx-auto px-4 grid lg:grid-cols-2 gap-12">
-          {/* Contact Form */}
           <div className="bg-white shadow-md rounded-lg p-8">
             <div className="mb-6">
               <h2 className="text-2xl font-bold mb-1">Send us a Message</h2>
