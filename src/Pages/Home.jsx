@@ -2,7 +2,6 @@ import { Activity, Zap, Shield, BarChart3, Users, Phone } from "lucide-react";
 import breed from "../assets/breed.PNG";
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
   return (
     <div className="min-h-screen bg-background">
