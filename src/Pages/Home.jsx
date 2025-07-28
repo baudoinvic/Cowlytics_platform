@@ -9,7 +9,6 @@ const Home = () => {
       <section className="bg-[#002240] text-white py-16 sm:py-20 md:py-24">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="flex flex-col-reverse lg:flex-row items-center justify-between gap-12 lg:gap-0">
-            {/* Left Content */}
             <div className="w-full lg:w-1/2 text-center lg:text-left">
               <h1 className="text-3xl sm:text-4xl lg:text-6xl font-bold leading-tight mb-6">
                 Smart <br className="hidden lg:block" />
@@ -26,16 +25,7 @@ const Home = () => {
               </Link>
             </div>
 
-            {/* Right Image */}
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
-              <img
-                src={breed}
-                alt="Smart Livestock Monitoring"
-                className="w-full max-w-md h-auto object-contain"
-              />
-            </div>
-
-            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end">
+            <div className="w-full lg:w-1/2 flex justify-center lg:justify-end mr-24">
               <img
                 src={breed}
                 alt="Smart Livestock Monitoring"
